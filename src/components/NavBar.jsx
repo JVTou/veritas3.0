@@ -14,7 +14,7 @@ const NavBar = () => {
   const [active, setActive] = useState("Home");
 
   return (
-    <div className="sticky top-0 z-50 flex justify-center py-4">
+    <div className="sticky top-4 z-50 flex justify-center -mt-20">
       <div className="navbar rounded-full bg-base-100/90 py-0 shadow-2xl outline outline-base-content/5 backdrop-blur flex">
         <div className="navbar-start flex items-center">
           <div className="dropdown">

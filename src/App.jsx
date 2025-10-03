@@ -11,7 +11,7 @@ import Testimonial from "./components/Testimonial";
 
 function App() {
   return (
-    <div className="relative px-1 py-2 md:px-10 font-garamond">
+    <div className="relative font-garamond">
       <NavBar />
       <Hero />
       <LogoClouds />
