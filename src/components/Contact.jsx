@@ -10,7 +10,7 @@ const Contact = () => {
       whileInView="show"
       viewport={{ once: true, amount: 0.25 }}
       id="contactus"
-      className="mt-20"
+      className="mt-20 px-4md:px-20"
     >
       <motion.div
         variants={fadeIn("up", "tween", 0.2, 1)}
